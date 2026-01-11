@@ -1,0 +1,28 @@
+[project]
+name = "Web_Scraping_RAG"
+version = "0.1.0"
+description = "웹 스크래핑 기반 RAG 챗봇"
+authors = [
+    {name = "최규리",email = "smile516@daum.net"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0.0"
+dependencies = [
+    "ipykernel (>=7.1.0,<8.0.0)",
+    "python-dotenv (>=1.0.0,<2.0.0)",
+    "langchain-openai (>=0.2.0,<1.0.0)",
+    "langchain-community (>=0.3.0,<1.0.0)",
+    "langchain-core (>=0.3.0,<1.0.0)",
+    "gradio (>=5.0.0,<6.0.0)",
+    "faiss-cpu (>=1.7.4,<2.0.0)",
+    "beautifulsoup4 (>=4.12.0,<5.0.0)",
+    "requests (>=2.31.0,<3.0.0)",
+    "lxml (>=5.0.0,<6.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "pdf_bot", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

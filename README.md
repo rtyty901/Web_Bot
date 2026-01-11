@@ -127,6 +127,3 @@ Web_Scraping_RAG/
 
 이 프로젝트는 개인 프로젝트입니다.
 
-## 작성자
-
-최규리 (smile516@daum.net)
